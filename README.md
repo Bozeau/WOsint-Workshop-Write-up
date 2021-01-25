@@ -1,0 +1,2 @@
+# WOsint-Workshop-Write-up
+Write up of some of the challenges of the WOsint workshop organized by W00dy and Itarow
