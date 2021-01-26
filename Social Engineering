@@ -1,0 +1,17 @@
+A write up of the only Social Engineering challenge of this workshop (Some names and adresses have been edited for privacy) :
+
+Brhackage (EN : Untranslatable, it is a wordplay using "hacking" and "brackage")
+
+Here, you had to send a mail realist enough to convince the community manager of Brhackage to send you important information (and the flag).
+To do that, you had to successfuly pretend to be ****, an important person in the school.
+
+Here is how I did my mail :
+
+1) First of all, I created a whole new e-mail adress using Gmail, which I named after the name of that person, ***@gm***.com
+2) Next, I wrote the most realistic e-mail I could, by simply applying all the rules taught by my school in communication :
+  a) Use a clear object for your mail with : "[***] ***" 
+  b) Separate your mail in different part, for the problem, the solution and the greetings.
+  c) And the last touch, the official email ending requested by our school with the pictures of it's logo.
+    
+Flag : VotezBrhackage
+  
