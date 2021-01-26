@@ -1,9 +1,61 @@
-Discord
+The write-up of five of the OSINT challenges, Discord, Mon beau Bateau 1, 2 and 3 and C'est Marseille bébé.
 
-Mon beau bateau (EN : My beautiful boat)
 
-Mon beau bateau 2 (EN : My beautiful boat 2)
+Discord :
 
-Mon beau bateau 3 (EN : My beautiful boat 3)
+The easiest challenge of them all, all you had to do was to check the official discord of the workshop, and you ended up finding it on the #OSINT challenge.
 
-C'est Marseille Bébé (EN : It's Marseille baby)
+Flag : WOSint{Hey_You_Got_The_First_Flag}
+
+
+
+Mon beau bateau (EN : My beautiful boat) - Author W00dy :
+
+Here, you had to find the owner of a certain boat by using only it's picture. This picture actually only gave us one information : "GV730709", which is written on the boat.
+GV stands for the port of the boat, Guilvinec. We can now find the owner with a quick Google search : < "armateur" "GV730709"  >  (EN : Armateur is the owner of a boat in french)
+
+We ended up on this website : http://navires-de-peche.over-blog.com/article-23249563.html which gave us exactly we were looking for.
+
+Flag : JOLIVET_Philippe
+
+
+
+Mon beau bateau 2 (EN : My beautiful boat 2) - Author W00dy :
+
+You here had to find the Maritime Mobile Service Identity of that boat, which is something boat are often identified by.
+You could do a Google Search looking like : < "MMSI" "L'OCARINA"  >   (L'OCARINA is here the new name of that boat, a name that you could easily find by looking up "GV730709" 
+in the first challeng.)
+
+We ended up on this website : https://www.marinetraffic.com/fr/ais/details/ships/shipid:180804/mmsi:228126000/imo:0/vessel:L_OCARINA
+
+Flag : 228126000
+
+
+
+Mon beau bateau 3 (EN : My beautiful boat 3) - Author W00dy :
+
+To conclude with this boat, we had to find how long it stayed in the port of Guilvinec on November, 19, 2020.
+This information was quite easy to find using the MMSI, and you ended up on the site : https://www.myshiptracking.com/ports-arrivals-departures/?mmsi=228126000
+Sadly since three days ago, the site removed the november port calls, because they were too old.
+
+Flag : 00:16:52
+
+
+
+C'est Marseille Bébé (EN : It's Marseille baby) - Author W00dy :
+
+Here, you had to find the name of a certain brand, using a photo taken by someone in Marseille (a French City) in 2008.
+The only information I used is the text on the board :
+"Tunnel Prado - Autoroute A50" (EN : Autoroute is the highway)
+
+With this information, you could look up the place where you could enter the tunnel Prado in Marseille, and you would end up with two possible choice for where it could be.
+Then, using google maps and street view, you just had to go sightsee until you were in the exact same place as in the picture.
+To finish, you just had to go back until the 2008 view was available on google map, and you would end up right in front of the publicity you were looking for.
+
+Flag : Chanel
+
+
+
+
+
+
